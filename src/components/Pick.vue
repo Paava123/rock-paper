@@ -1,10 +1,10 @@
 <template>
-<div class="grid grid-cols-2 mt-10 place-self-center gap-20 gap-y-0 bg-[url(/bg-triangle.svg)] bg-center bg-no-repeat" v-show="picking">
+<main class="grid grid-cols-2 mt-10 place-self-center gap-20 gap-y-0 bg-[url(/bg-triangle.svg)] bg-center bg-no-repeat" v-show="picking">
 <div @click="PlayAGame(0)"><Blue ></Blue></div>
 <div @click="PlayAGame(1)"><Orange ></Orange></div>
 <div @click="PlayAGame(2)" class="align-items justify-center col-span-2"><Red ></Red></div>
 
-</div>
+</main>
 <div class="grid grid-cols-3 mt-10 place-self-center gap-20 gap-y-0 " v-show="!picking">
 
 

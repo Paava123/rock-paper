@@ -1,6 +1,6 @@
 <template>
 
-<div class="border-3 mt-10 m-auto w-1/2 p-5 px-10 flex rounded-2xl border-gray-500 justify-between font-bold  text-xl ">
+<nav class="border-3 mt-10 m-auto w-1/2 p-5 px-10 flex rounded-2xl border-gray-500 justify-between font-bold  text-xl ">
 
     <div class="text-gray-200 text-4xl/8 font-bold flex flex-col justify-center">
         <img src="/logo.svg" alt="logo">
@@ -14,7 +14,7 @@
 
     </div>
 
-</div>
+</nav>
 
 
 </template> 
