@@ -5,7 +5,7 @@
 <div v-show="showing" class="flex flex-col bg-white rounded-xl w-1/4 m-auto p-10 gap-10 absolute right-1/2 left-1/2  -translate-x-1/2  top-1/5 -translate-y-1/10 z-9" >
     <div class="flex justify-between text-3xl font-bold text-gray-700 ">
         <p>RULES</p>
-        <button @click="ShowRules"> <img src="/icon-close.svg"></button>
+        <button @click="ShowRules" type="button"> <img src="/icon-close.svg" alt="close"></button>
     </div>
     <img src="/image-rules.svg">
 </div>

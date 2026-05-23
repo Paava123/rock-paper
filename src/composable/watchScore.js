@@ -1,12 +1,7 @@
 import { watch, ref } from "vue";
-let score = ref( 0);
+const score = ref( localStorage.getItem("Score") ?? 0);
 export function Scoring(){
 
-
-if(localStorage.getItem("Score")){
-score.value = localStorage.getItem("Score");
-
-}
 
 
 watch(score, (newScore) => {

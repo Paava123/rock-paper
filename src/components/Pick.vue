@@ -20,7 +20,7 @@
         </div>
         <div class="flex flex-col text-xl text-white align-items justify-center gap-5">
             <p class="flex align-items justify-center text-7xl"> {{ result }}</p>
-        <button @click="Again" class="bg-white p-2 text-black rounded-xl"> Play again</button>
+        <button type="button" @click="Again" class="bg-white p-2 text-black rounded-xl"> Play again</button>
     </div>
         <div class="flex flex-col text-xl text-white align-items justify-center gap-5">
                <div class="flex align-items justify-center">House picked:</div>
